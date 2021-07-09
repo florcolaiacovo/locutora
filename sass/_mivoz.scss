@@ -1,0 +1,51 @@
+@media screen and (min-width: 320px){
+    //main mivoz
+    .main__mivoz{
+        height: 65.7vh;
+        h1.main__mivoz--encabezado{
+        text-decoration: underline;
+        padding-top: 15px;
+        text-align: center;
+        padding-top: 50px;
+        color:$color-white;
+        }
+        div#carouselExampleControls{
+            padding-top: 50px;
+       
+        button.carousel-control-prev{
+            padding-top: 50px;
+            }
+        button.carousel-control-next{
+            padding-top: 50px;
+        }
+        }
+    }
+}
+
+// RESPONSIVE DESKTOP
+@media (min-width: 1024px){
+
+    //main mi voz
+    .main__mivoz{
+        height: 88vh;
+        h1.main__mivoz--encabezado{
+            text-decoration: underline;
+            text-align: center;
+            padding-top: 20px;
+            color:$color-white;
+            }
+        div#carouselExampleControls{
+            iframe{
+                height: 500px;
+            }
+            padding-top: 25px;
+            button.carousel-control-prev{
+                padding-top: 25px;
+                }
+            button.carousel-control-next{
+                padding-top: 25px;
+            }
+       
+}
+}
+}

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <meta 
+        name="descripcion" 
+        content="Locutora Nacional argentina matriculada. Programá un consulta virtual conmigo para sacarte las dudas y contarme sobre tu proyecto.">
+    <meta 
+        name="keywords" 
+        content="locutor, locutora, locutora nacional, home studio, s.a.l., presupuesto, presentador, presentadora, orador, oradora, conductor, conductora, radio, tv, television, televisión">
+    <meta 
+        name="theme-color"
+        content="red">
+    <link rel="stylesheet" href="../sass/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body>
+    <!-------ESTA ES LA BARRA DE NAVEGACION-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand col-lg-1" href="../index.html" name="icono">
+                <img class="header__logo " 
+                     src="https://alwaysbrainstorming.com/wp-content/uploads/2019/06/alwaysbrainstorming-sing-while-your-winning-w-600x750.jpg"
+                     alt="icono">
+              Flor Colaiacovo
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse header__navegador" id="navbarNavAltMarkup">
+                <div class="navbar-nav col-lg-12">
+                  <a class="nav-link header__rojo--5 col-lg-2 active" aria-current="page" href="../index.html">Inicio</a>
+                  <a class="nav-link  header__rojo--4 col-lg-2 " href="../html/mivoz.html">Mi voz</a>
+                  <a class="nav-link  header__rojo--3 col-lg-2 " href="../html/miformacion.html">Mi formación</a>
+                  <a class="nav-link  header__rojo--2 col-lg-2 " href="../html/infodecolor.html">Info de color</a>
+                  <a class="nav-link  header__rojo--1 col-lg-2  " href="../html/contacto.html" tabindex="-1" aria-disabled="true">Contacto</a>
+                </div>
+              </div>
+            </div>
+        </nav>
+      </header>
+
+    
+ <!-----ACA EMPIEZA MAIN--> 
+<main class="main__contacto container">
+
+ <!-------enlace directo a wpp en desktop-->
+   
+ <a href="https://api.whatsapp.com/send?phone=541135225845&text=Hola%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n%20de%20los%20servicios%20de%20locuci%C3%B3n.">
+    <img class="Wpp" src="../elementos/wppLogo.png">
+  </a>
+
+  <h1 class="main__contacto--encabezado">Contacto</h1>
+
+<!-- formulario -->
+<form>
+    <fieldset class="fieldset--1">
+        <legend>Información personal</legend>
+        
+        <!-- Input nombre -->
+        <label class="fieldset__hijo" for="nombre">Nombre</label>
+        <input class="fieldset__hijo" type="text" placeholder="Escriba aqui su nombre" id="nombre" name="nombre">
+
+        <!-- Input Apellido -->
+        <label class=" fieldset__hijo" for="apellido">Apellido</label>
+        <input class="fieldset__hijo" type="text" placeholder="Escriba aqui su apellido" name="apellido" id="apellido">
+
+        <!-- Input Celular -->
+        <label class=" fieldset__hijo" for="celular">Celular</label>
+        <input class="fieldset__hijo" type="tel" placeholder="Esriba aqui su celular" id="celular" name="celular">
+
+    </fieldset>
+
+    <fieldset class="fieldset--2">
+        <legend>Sobre la locución que busca - Presupuesto</legend>
+
+        <!-- Input Opciones -->
+        <p class="fieldset__hijo">¿Para qué es el material a proporcionar?</p>
+        <label class="fieldset__hijo" for="empresa">Empresa</label>
+        <input class="fieldset--2__radio" type="radio" name="pymes" id="empresa">
+
+        <label class="fieldset__hijo" for="pyme">Pyme</label>
+        <input class="fieldset--2__radio" type="radio" name="pymes" id="pyme">
+
+        <!-- Input nombre del la empresa u emprendimiento-->
+        <label class="color fieldset__hijo" for="empresa">
+            <p>Nombre su empresa / pyme</p>
+        </label>
+        
+        <input class="fieldset__hijo" type="name" 
+            placeholder="Esriba aquí el nombre de la empresa o pyme" id="empresa" name="empresa">
+
+        <!-- Menu desplegable -->
+        <p class="color fieldset__hijo">¿Cuántos meses se reproducirá?</p>
+        <select class="fieldset__hijo--no" name="meses">
+            <option value="1">6</option>
+            <option value="2">12</option>
+            <option value="3">18</option>
+            <option value="4">24</option>
+        </select>
+
+        <!-- Cuadro de texto -->
+        
+        <p class="color fieldset__hijo" for="comentarios">Comentarios</p>
+        <textarea class="fieldset__hijo--no" name="comentarios" cols="30" rows="10">Escriba aqui informacion sobre el trabajo que precisa</textarea>
+        
+    </fieldset>
+
+    <section class="form--section">
+        <div class="form--section__1">
+        <input type="checkbox">
+        <p>Acepta recibir descuentos, promociones y novedades</p>
+        </div>
+    </section>
+
+    <section class="form--section2">
+        <div>
+            <!-- Boton de reseteo -->
+        <button type="reset" 
+            class="btn btn-light">Limpiar
+        </button>
+             <!-- Boton de Enviar -->
+        <button type="submit"
+            class="btn btn-light">Enviar
+        </button>
+        </div>
+    </section>
+
+</form>
+
+</main>
+
+
+
+<!--------ACA EMPIEZA EL FOOTER-->
+<div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-xs-12"><a class="footer__rojo--4" href="https://www.linkedin.com/in/florcolaiacovolocutora/">LinkedIn</a></div>
+      <div class="col-lg-3 col-xs-12"><a class="footer__rojo--3" href="https://www.google.com/maps/place/Buenos+Aires,+CABA/@-34.6157437,-58.5733832,11z/data=!3m1!4b1!4m5!3m4!1s0x95bcca3b4ef90cbd:0xa0b3812e88e88e87!8m2!3d-34.6036844!4d-58.3815591">C.A.B.A., Argentina</a></div>
+      <div class="col-lg-3 col-xs-12"><a class="footer__rojo--2" href="https://api.whatsapp.com/send?phone=541135225845&text=Hola%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n%20de%20los%20servicios%20de%20locuci%C3%B3n.">+54 9 11 3522 5845</a></div>
+      <div class="col-lg-3 col-xs-12"><a class="footer__rojo--1" href="mailto:florcolaiacovo@gmail.com">florcolaiacovo@gmail.com</a></div>
+    </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
