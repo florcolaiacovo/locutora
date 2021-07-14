@@ -206,7 +206,7 @@
 
 @media screen and (max-width: 365px) {
   main.main__miformacion {
-    height: 290vh;
+    height: 300vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -247,6 +247,9 @@
     color: rgba(230, 230, 230, 0.856);
     text-align: center;
   }
+  main.main__miformacion p a {
+    color: #e28d8d;
+  }
   main.main__miformacion h3 {
     color: rgba(230, 230, 230, 0.856);
     text-align: center;
@@ -254,6 +257,9 @@
   main.main__miformacion ul {
     color: rgba(230, 230, 230, 0.856);
     text-align: center;
+  }
+  main.main__miformacion ul a {
+    color: #e28d8d;
   }
   main.main__miformacion h4 {
     color: rgba(230, 230, 230, 0.856);
@@ -263,7 +269,7 @@
 
 @media (min-width: 1024px) {
   main.main__miformacion.container {
-    height: 120vh;
+    height: 123vh;
   }
   main.main__miformacion.container section.main__miformacion--parte1 {
     height: 52vh;
@@ -365,6 +371,9 @@
     color: rgba(230, 230, 230, 0.856);
     text-align: center;
   }
+  main.main__miformacion.container section.main__miformacion--parte2 div p a {
+    color: #e28d8d;
+  }
   main.main__miformacion.container section.main__miformacion--parte2 div h2 {
     color: rgba(230, 230, 230, 0.856);
     text-align: center;
@@ -374,6 +383,9 @@
   main.main__miformacion.container section.main__miformacion--parte2 div ul {
     color: rgba(230, 230, 230, 0.856);
     text-align: center;
+  }
+  main.main__miformacion.container section.main__miformacion--parte2 div ul a {
+    color: #e28d8d;
   }
 }
 

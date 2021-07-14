@@ -4,7 +4,7 @@
 
 //main
 main.main__miformacion{
-    height: 290vh;   
+    height: 300vh;   
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -40,6 +40,9 @@ main.main__miformacion{
     p{
         color: $color-white;
         text-align: center;
+        a{
+            color: $color-rojo-1;
+        }
     }
     h3{
         color: $color-white;
@@ -48,6 +51,9 @@ main.main__miformacion{
     ul{
         color: $color-white;
         text-align: center;
+        a{
+            color: $color-rojo-1;
+        }
     }
     h4{
         color: $color-white;
@@ -60,7 +66,7 @@ main.main__miformacion{
 @media (min-width: 1024px ){
 //main
 main.main__miformacion.container{
-    height: 120vh;
+    height: 123vh;
     section.main__miformacion--parte1{
     height: 52vh; 
     width: auto;
@@ -145,6 +151,9 @@ section.main__miformacion--parte2{
         p{
             color: $color-white;
             text-align: center;
+            a{
+                color: $color-rojo-1;
+            }
         }
     }
     div{
@@ -157,6 +166,9 @@ section.main__miformacion--parte2{
         ul{
             color: $color-white;
             text-align: center;
+            a{
+                color: $color-rojo-1;
+            }
         }
     }
 }
