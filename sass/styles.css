@@ -204,7 +204,7 @@
   }
 }
 
-@media screen and (max-width: 365px) {
+@media (min-width: 320px) and (max-width: 1024px) {
   main.main__miformacion {
     height: 300vh;
     display: -webkit-box;
