@@ -4,7 +4,7 @@
 
 //main
 main.main__miformacion{
-    height: 330vh;   
+    height: 375vh;   
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -66,7 +66,7 @@ main.main__miformacion{
 @media (min-width: 1024px ){
 //main
 main.main__miformacion.container{
-    height: 123vh;
+    height: 175vh;
     section.main__miformacion--parte1{
     height: 52vh; 
     width: auto;
@@ -135,7 +135,7 @@ section.main__miformacion--parte2{
     height: 60vh;  
     width: auto;
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
     justify-content: center;
     div{
         h2{

@@ -1,9 +1,9 @@
-@import "index";
-@import "_mivoz";
+@import "index.scss";
+@import "_mivoz.scss";
 @import "_miformacion";
-@import "_infodecolor";
-@import "_contacto";
-@import "_variables";
+@import "_infodecolor.scss";
+@import "_contacto.scss";
+@import "_variables.scss";
 
 // ESTA ES LA BARRA DE NAVEGACION
 nav.bg-light {

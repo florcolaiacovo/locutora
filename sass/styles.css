@@ -7,7 +7,7 @@
   }
 
   .main__index {
-    height: 66vh;
+    height: 67vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -132,7 +132,7 @@
 }
 @media screen and (min-width: 320px) {
   .main__mivoz {
-    height: 68vh;
+    height: 67vh;
   }
   .main__mivoz h1.main__mivoz--encabezado {
     text-decoration: underline;
@@ -176,7 +176,7 @@
 }
 @media (min-width: 320px) and (max-width: 1024px) {
   main.main__miformacion {
-    height: 330vh;
+    height: 375vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -229,7 +229,7 @@
 }
 @media (min-width: 1024px) {
   main.main__miformacion.container {
-    height: 123vh;
+    height: 175vh;
   }
   main.main__miformacion.container section.main__miformacion--parte1 {
     height: 52vh;
@@ -424,7 +424,7 @@
 }
 @media screen and (min-width: 320px) {
   .main__contacto {
-    height: 162vh;
+    height: 173vh;
   }
   .main__contacto h1.main__contacto--encabezado {
     text-align: center;
