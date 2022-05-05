@@ -228,7 +228,7 @@
 }
 @media (min-width: 1024px) {
   main.main__miformacion.container {
-    height: 275vh;
+    height: 300vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -261,6 +261,7 @@
     color: rgba(230, 230, 230, 0.856);
   }
   main.main__miformacion.container section.main__miformacion--parte1 div.main__miformacion--experiencia {
+    padding-top: 15px;
     height: 160vh;
     width: auto;
     display: flex;
@@ -339,6 +340,7 @@
     justify-content: center;
   }
   main.main__miformacion.container div.main__miformacion--parte3 div {
+    padding-top: 60px;
     width: 60vw;
   }
   main.main__miformacion.container div.main__miformacion--parte3 div h2 {
@@ -359,7 +361,7 @@
     color: rgb(226, 141, 141);
   }
   main.main__miformacion.container section {
-    height: 35vh;
+    height: 45vh;
     width: auto;
     display: flex;
     flex-direction: column;
@@ -377,7 +379,8 @@
     color: rgba(230, 230, 230, 0.856);
   }
   main.main__miformacion.container section.main__miformacion--parte2 {
-    height: 70vh;
+    padding-top: 50px;
+    height: 90vh;
     width: auto;
     display: flex;
     flex-direction: column;
