@@ -4,13 +4,13 @@
 
 //main
 main.main__miformacion{
-    height: 375vh;   
+    height: 355vh;   
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
         section.main__miformacion--parte1{
-            height: 165vh; 
+            height: 190vh; 
             width: auto;
             display: flex;
             flex-direction: column;
@@ -24,7 +24,7 @@ main.main__miformacion{
             div.miformacion--descripcion{
                 display: flex;
                 flex-direction: column;
-                height: 75vh;
+                height: 85vh;
                 p.main__miformacion--descripcion{
                    text-align: start;
                    margin: 0px 0px 0px 0px;
@@ -38,7 +38,7 @@ main.main__miformacion{
            
             div.main__miformacion--experiencia{
                 padding-top: 15px;
-                height: 80vh;
+                height: 95vh;
                 width: auto;
                 display: flex;
                 flex-direction: column;
@@ -134,7 +134,7 @@ main.main__miformacion.container{
     justify-content: center;
     flex-direction: column;
     section.main__miformacion--parte1{
-    height: 125vh; 
+    height: 135vh; 
     width: auto;
     display: flex;
     flex-direction: column;
@@ -190,6 +190,7 @@ main.main__miformacion.container{
                 text-align: start;
                 max-width: 60vw;
                 margin: 0px 0px 0px 0px;
+
                 a{
                     color: $color-rojo-1;
                 }
@@ -215,7 +216,7 @@ main.main__miformacion.container{
      div.miformacion--descripcion{
          display: flex;
          flex-direction: column;
-         height: 50vh;
+         height: 70vh;
          p.main__miformacion--descripcion{
             text-align: start;
             max-width: 60vw;

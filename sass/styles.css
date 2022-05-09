@@ -7,7 +7,7 @@
   }
 
   .main__index {
-    height: 61.5vh;
+    height: 62.5vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -132,7 +132,10 @@
 }
 @media screen and (min-width: 320px) {
   .main__mivoz {
-    height: 61.5vh;
+    height: 62.5vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
   .main__mivoz h1.main__mivoz--encabezado {
     padding-top: 15px;
@@ -142,12 +145,19 @@
     color: rgba(230, 230, 230, 0.856);
   }
   .main__mivoz div#carouselExampleControls {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+  }
+  .main__mivoz div#carouselExampleControls div {
+    padding-left: 8px;
+  }
+  .main__mivoz button.carousel-control-prev {
     padding-top: 50px;
   }
-  .main__mivoz div#carouselExampleControls button.carousel-control-prev {
-    padding-top: 50px;
-  }
-  .main__mivoz div#carouselExampleControls button.carousel-control-next {
+  .main__mivoz button.carousel-control-next {
     padding-top: 50px;
   }
 }
@@ -190,14 +200,14 @@
 }
 @media (min-width: 320px) and (max-width: 1024px) {
   main.main__miformacion {
-    height: 375vh;
+    height: 355vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
   }
   main.main__miformacion section.main__miformacion--parte1 {
-    height: 165vh;
+    height: 190vh;
     width: auto;
     display: flex;
     flex-direction: column;
@@ -210,7 +220,7 @@
   main.main__miformacion section.main__miformacion--parte1 div.miformacion--descripcion {
     display: flex;
     flex-direction: column;
-    height: 75vh;
+    height: 85vh;
   }
   main.main__miformacion section.main__miformacion--parte1 div.miformacion--descripcion p.main__miformacion--descripcion {
     text-align: start;
@@ -223,7 +233,7 @@
   }
   main.main__miformacion section.main__miformacion--parte1 div.main__miformacion--experiencia {
     padding-top: 15px;
-    height: 80vh;
+    height: 95vh;
     width: auto;
     display: flex;
     flex-direction: column;
@@ -313,7 +323,7 @@
     flex-direction: column;
   }
   main.main__miformacion.container section.main__miformacion--parte1 {
-    height: 125vh;
+    height: 135vh;
     width: auto;
     display: flex;
     flex-direction: column;
@@ -390,7 +400,7 @@
   main.main__miformacion.container section.main__miformacion--parte1 div.miformacion--descripcion {
     display: flex;
     flex-direction: column;
-    height: 50vh;
+    height: 70vh;
   }
   main.main__miformacion.container section.main__miformacion--parte1 div.miformacion--descripcion p.main__miformacion--descripcion {
     text-align: start;
@@ -514,7 +524,7 @@
 }
 @media screen and (min-width: 320px) {
   main.main__infodecolor {
-    height: 185vh;
+    height: 186vh;
     display: flex;
     justify-content: center;
     color: rgba(230, 230, 230, 0.856);

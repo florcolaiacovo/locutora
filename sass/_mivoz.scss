@@ -1,7 +1,10 @@
 @media screen and (min-width: 320px){
     //main mivoz
     .main__mivoz{
-        height: 67vh - 5.5;
+        height: 67vh - 4.5;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
         h1.main__mivoz--encabezado{
         padding-top: 15px;
         text-align: center;
@@ -10,7 +13,17 @@
         color:$color-white;
         }
         div#carouselExampleControls{
+            padding-bottom: 50px;
             padding-top: 50px;
+            width: 80vw;
+            display: flex;
+            justify-content: center;
+            div{
+                padding-left: 8px;
+        
+            }
+
+            }
        
         button.carousel-control-prev{
             padding-top: 50px;
@@ -20,7 +33,6 @@
         }
         }
     }
-}
 
 // RESPONSIVE DESKTOP
 @media (min-width: 1024px){
