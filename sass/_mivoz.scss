@@ -1,11 +1,11 @@
 @media screen and (min-width: 320px){
     //main mivoz
     .main__mivoz{
-        height: 67vh;
+        height: 67vh - 5.5;
         h1.main__mivoz--encabezado{
-        text-decoration: underline;
         padding-top: 15px;
         text-align: center;
+        height: 100px;
         padding-top: 50px;
         color:$color-white;
         }
@@ -27,17 +27,34 @@
 
     //main mi voz
     .main__mivoz{
-        height: 88vh;
+        height: 79.5vh;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-bottom: 100px;
         h1.main__mivoz--encabezado{
-            text-decoration: underline;
             text-align: center;
-            padding-top: 20px;
+            align-items: flex-start;
             color:$color-white;
-            }
+            justify-self: flex-start;
+            padding-bottom: 100px;
+        }
         div#carouselExampleControls{
+            align-self: center;
+            width: 500px;
+            height: 250px;
+            padding-bottom: 200px;
+            div{
+                width: 500px;
+                div{
             iframe{
-                height: 500px;
+                width: 500px;
+                height: 250px;
+
             }
+        }
+        }
             padding-top: 25px;
             button.carousel-control-prev{
                 padding-top: 25px;

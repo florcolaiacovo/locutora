@@ -3,7 +3,7 @@
 @media screen and (min-width: 320px){
 //main
 main.main__infodecolor{
-    height: 235vh;
+    height: 185vh;
     display: flex;
     justify-content: center;
     color:$color-white;
@@ -13,7 +13,6 @@ main.main__infodecolor{
         }
     }
     h1.main__infodecolor--encabezado{
-        text-decoration: underline;
         padding-top: 15px;
         text-align: center;
     }
@@ -22,25 +21,18 @@ main.main__infodecolor{
     div.main__infodecolor--1{
         padding-top: 15px;
         padding-bottom: 10px;
-        h2{
-           text-decoration: underline;
-        }
     }
     div.main__infodecolor--2{
         padding-top: 15px;
         padding-bottom: 10px;
         display: flex;
         flex-direction: column;
-        h2{
-           text-decoration: underline;
-        }
+
     }   
     div.main__infodecolor--3{
         padding-top: 15px;
         padding-bottom: 10px;
-        h2{
-            text-decoration: underline;
-        }
+
     }
 }
 }
@@ -50,7 +42,7 @@ main.main__infodecolor{
 @media (min-width: 1024px){
 
 main.main__infodecolor{
-    height: 86vh;
+    height: 79.5vh;
     display: flex;
     color: white;
     a{
@@ -65,7 +57,6 @@ main.main__infodecolor{
            }
     }
     h1.main__infodecolor--encabezado{
-        text-decoration: underline;
         padding-top: 15px;
         text-align: center;
     }

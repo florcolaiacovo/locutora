@@ -86,7 +86,7 @@ nav.bg-light{
 //footer
 div.container{
     background-color: $color-negro;
-    height: 23vh;
+    height: 27vh;
     div{
         div.col-xs-12{
             padding-top: 10px;
@@ -105,6 +105,10 @@ div.container{
                 }
                 a.footer__rojo--4{
                     color: $color-rojo;
+                    text-decoration: none;
+                }
+                a.footer__rojo--0{
+                    color: $color-rojo-0;
                     text-decoration: none;
                 }
                 a:hover{
@@ -223,6 +227,11 @@ a.navbar-brand{
                 }
                 a.footer__rojo--4{
                     color: $color-rojo;
+                    text-decoration: none;
+                    padding-top: 15px;
+                }
+                a.footer__rojo--0{
+                    color: $color-rojo-0;
                     text-decoration: none;
                     padding-top: 15px;
                 }
